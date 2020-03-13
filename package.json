@@ -1,6 +1,6 @@
 {
   "name": "com.yosoi.noodle",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "displayName": "Noodle",
   "description": "Object pooling for Unity.",
   "unity": "2019.3",

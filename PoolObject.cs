@@ -1,18 +1,12 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class PoolObject : MonoBehaviour
+namespace Noodle
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+  using System;
+  using UnityEngine;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+  public class PoolObject : MonoBehaviour
+  {
+    public event Action<PoolObject> OnExpire;
+
+    public void Expire() => OnExpire?.Invoke(this);
+  }
 }
