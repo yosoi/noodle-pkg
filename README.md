@@ -1,2 +1,2 @@
 # :ramen: :package: noodle-pkg
-Object pooling for Unity.
+A packaged version of [Noodle](https://github.com/yosoi/noodle).
